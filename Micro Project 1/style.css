@@ -12,10 +12,6 @@ main {
     padding: 50px 100px;
 }
 
-main .left {
-    /* padding: 100px 0 100px 100px; */
-}
-
 main .left p {
     font-size: 22px;
 }
