@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor - Module Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="score-container">
+        <div class="title">
+            ROCK<br>PAPER<br>SCISSORS
+        </div>
+        <div class="score-box">
+            <div class="box">
+                <p>COMPUTER<br>SCORE</p>
+                <h1 id="compScoreBox">0</h1>
+            </div>
+            <div class="box">
+                <p>YOUR<br>SCORE</p>
+                <h1 id="userScoreBox">0</h1>
+            </div>
+        </div>
+    </div>
+    <div class="playground">
+        <div class="outer">
+            <div class="inner"></div>
+        </div>
+        <img class="items" id="stone" src="images/stone.png" alt="">
+        <img class="items" id="scissor" src="images/scissor.png" alt="">
+        <img class="items" id="paper" src="images/paper.png" alt="">
+    </div>
+    <div class="status">
+        <div class="userPicked">
+            <h4>YOU PICKED</h4>
+            <div class="circle-container">
+                <img src="" alt="">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="playResult"></div>
+        <div class="compPicked">
+            <h4>PC PICKED</h4>
+            <div class="circle-container">
+                <img src="" alt="">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+    <div class="action">
+        <button class="rules">RULES</button>
+        <button class="next" onclick="window.location.href='./winner.html'">NEXT</button>
+    </div>
+    <div class="rules-modal">
+        <button class="cross">X</button>
+        <h2>Game Rules</h4>
+            <ul>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper,
+                    scissors.”</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>If both players lay down the same hand, each player lays down another hand</li>
+            </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
